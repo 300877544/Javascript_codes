@@ -1,0 +1,11 @@
+var n1=2;
+var n2 = 4;
+var res;
+res=n1|n2;
+var res1;
+res1 = n1&n2;
+var res2;
+res2=n1^n2;
+console.log(res);
+console.log(res1);
+console.log(res2);

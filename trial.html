@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <link rel="stylesheet" href="styles.css">
+        
+    </head>
+    <body>
+        <script>
+            function myfunction()
+            {
+                var input = document.querySelector(".add").value;
+                var d = document.querySelector(".name");
+                d.innerHTML="Hello " + input;
+                
+            }
+            var h = document.querySelector("#heading");
+                h.style.color="blue";
+                var li = document.querySelector(".lis");
+                li.style.color="#808080";
+            </script>
+        <h1 id="heading">Nila  Apps</h1>
+        <h3 class="name">
+        <input type="text" class="add">Add text field here</input>
+      <br>
+        <button type="submit" onclick="myfunction()">Submit</button>
+        <ul>
+            <li class="lis">Software Developer</li>
+            <li class="lis">Software Tester</li>
+        </ul>
+    </body>
+</html>
